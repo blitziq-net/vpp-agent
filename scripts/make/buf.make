@@ -12,13 +12,13 @@ REMOTE_GIT := https://github.com/ligato/vpp-agent.git
 CHECK_BREAKING_BRANCH := master
 
 # https://github.com/bufbuild/buf/releases 20200724
-BUF_VERSION := 0.51.1
+BUF_VERSION := 1.51.0
 # https://github.com/protocolbuffers/protobuf-go 20200624
-PROTOC_GEN_GO_VERSION ?= v1.27.1
+PROTOC_GEN_GO_VERSION ?= v1.36.6
 # https://github.com/grpc/grpc-go 20200730
-PROTOC_GEN_GO_GRPC_VERSION ?= v1.38.0
+PROTOC_GEN_GO_GRPC_VERSION ?= v1.71.1
 # https://github.com/protocolbuffers/protobuf/releases 20200729
-PROTOC_VERSION ?= 3.17.3
+PROTOC_VERSION ?= 30.2
 
 GO_BINS := $(GO_BINS) \
 	buf \
@@ -37,6 +37,10 @@ ifeq ($(UNAME_OS),Linux)
 PROTOC_OS = linux
 endif
 PROTOC_ARCH := $(UNAME_ARCH)
+
+ifeq ($(PROTOC_ARCH),aarch64)
+PROTOC_ARCH = 'aarch_64'
+endif
 
 IMAGE_DIR=$(BUILD_DIR)/image
 
