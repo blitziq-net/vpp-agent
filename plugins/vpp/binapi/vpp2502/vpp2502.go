@@ -109,4 +109,4 @@ func init() {
 
 //go:generate -command binapigen binapi-generator --no-version-info --output-dir=.
 //go:generate binapigen --input=$VPP_API_DIR/core
-//go:generateDISABLED binapigen --input=$VPP_API_DIR/plugins
+//go:generate binapigen --input=$VPP_API_DIR/plugins
