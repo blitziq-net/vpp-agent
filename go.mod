@@ -15,7 +15,7 @@ require (
 	github.com/docker/go-connections v0.5.0
 	github.com/ghodss/yaml v1.0.0
 	github.com/go-errors/errors v1.5.1
-	github.com/goccy/go-graphviz v0.2.9
+	github.com/goccy/go-graphviz v0.0.6
 	github.com/goccy/go-yaml v1.17.1
 	github.com/google/go-cmp v0.7.0
 	github.com/gorilla/mux v1.8.1
@@ -66,7 +66,6 @@ require (
 	github.com/coreos/go-semver v0.3.1 // indirect
 	github.com/coreos/go-systemd/v22 v22.5.0 // indirect
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
-	github.com/disintegration/imaging v1.6.2 // indirect
 	github.com/distribution/reference v0.6.0 // indirect
 	github.com/docker/go-units v0.5.0 // indirect
 	github.com/eapache/go-resiliency v1.7.0 // indirect
@@ -76,7 +75,6 @@ require (
 	github.com/fatih/color v1.18.0 // indirect
 	github.com/felixge/fgprof v0.9.5 // indirect
 	github.com/felixge/httpsnoop v1.0.4 // indirect
-	github.com/flopp/go-findfont v0.1.0 // indirect
 	github.com/fluent/fluent-logger-golang v1.9.0 // indirect
 	github.com/fogleman/gg v1.3.0 // indirect
 	github.com/fsnotify/fsnotify v1.8.0 // indirect
@@ -134,7 +132,6 @@ require (
 	github.com/spf13/afero v1.14.0 // indirect
 	github.com/spf13/cast v1.7.1 // indirect
 	github.com/subosito/gotenv v1.6.0 // indirect
-	github.com/tetratelabs/wazero v1.9.0 // indirect
 	github.com/tinylib/msgp v1.2.5 // indirect
 	github.com/xeipuuv/gojsonpointer v0.0.0-20190905194746-02993c407bfb // indirect
 	github.com/xeipuuv/gojsonreference v0.0.0-20180127040603-bd5ef7bd5415 // indirect
