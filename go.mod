@@ -2,7 +2,7 @@ module go.ligato.io/vpp-agent/v3
 
 go 1.23.8
 
-replace go.ligato.io/cn-infra/v2 => github.com/joeybole/cn-infra/v2 v2.6.0-alpha
+replace go.ligato.io/cn-infra/v2 => github.com/blitziq-net/cn-infra/v2 v2.6.0-alpha
 
 replace github.com/armon/go-metrics => github.com/hashicorp/go-metrics v0.5.3
 
